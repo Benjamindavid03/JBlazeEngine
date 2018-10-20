@@ -1,0 +1,16 @@
+com.blaze
+com.blaze.editor
+com.blaze.engine.audio
+com.blaze.engine.components
+com.blaze.engine.components.camera
+com.blaze.engine.components.environments
+com.blaze.engine.components.gameobjects
+com.blaze.engine.components.input
+com.blaze.engine.components.lights
+com.blaze.engine.components.physics
+com.blaze.engine.core
+com.blaze.engine.core.enums
+com.blaze.engine.rendering
+com.blaze.engine.rendering.meshLoading
+com.blaze.engine.rendering.resourceManagement
+com.blaze.game
