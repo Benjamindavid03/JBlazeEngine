@@ -42,6 +42,7 @@ public class OggDecoder {
      *
      * @param input The input stream from which to read the OGG file
      * @return The data describing the OGG thats been read
+     * @throws java.io.IOException
      */
     public OggData getData(InputStream input) throws IOException {
         // the following code come from an example in the Java OGG library.

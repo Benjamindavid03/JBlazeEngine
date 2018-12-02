@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.blaze.engine.core;
 
 import com.blaze.engine.components.camera.Camera;
@@ -20,12 +15,13 @@ import com.blaze.engine.rendering.Window;
  * @author Benjamin Fredrick David.H
  */
 public class Scene {
-    
+
     private GameObject sun;
     private Vector3f skyColor;
     private Vector3f sunColor;
     public Vector3f sunRotationVector;
     private float sunIntensity = 0.1f;
+
     /**
      * @return the sun
      */
@@ -81,7 +77,7 @@ public class Scene {
     public void setSunIntensity(float sunIntensity) {
         this.sunIntensity = sunIntensity;
     }
-      
+
     public void setupDefaultSun(Game game) {
         setSun(new GameObject());
         setSkyColor(Color.colorFromRGB(25, 34, 23));
@@ -93,7 +89,7 @@ public class Scene {
         directionalLight.GetTransform().SetRotation(new Quaternion(sunRotationVector, (float) Math.toRadians(-20)));
         game.AddGameObject(getSun());
     }
-    
+
     public void loadFreeLookandMoveMainCamera(Game game) {
         Camera cam = new Camera(new Matrix4f().InitPerspective((float) Math.toRadians(70.0f),
                 (float) Window.GetWidth() / (float) Window.GetHeight(), 0.01f, 1000.0f));

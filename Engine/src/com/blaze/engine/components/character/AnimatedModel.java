@@ -1,18 +1,3 @@
-/*
- * Copyright 2018 Ben.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.blaze.engine.components.character;
 
 /**
@@ -23,18 +8,6 @@ import com.blaze.engine.rendering.Mesh;
 import com.blaze.engine.rendering.Texture;
 import org.joml.Matrix4f;
 
-/**
- *
- * This class represents an entity in the world that can be animated. It
- * contains the model's VAO which contains the mesh data, the texture, and the
- * root joint of the joint hierarchy, or "skeleton". It also holds an int which
- * represents the number of joints that the model's skeleton contains, and has
- * its own {@link Animator} instance which can be used to apply animations to
- * this entity.
- *
- * @author Karl
- *
- */
 public class AnimatedModel {
 
     // skin
