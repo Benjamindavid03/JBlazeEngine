@@ -1,9 +1,11 @@
 # JBlazeEngine
+## A Java Game Engine based on LWJGL library.
+
 A 3D Game Engine which is currently being developed based on the core Engine from thebennybox
 
 Implemented in Java with lwjgl, slick and bullet.
 
-A Game Engine source code which has the following features
+A Game Engine which has the following features
 <ul>
 <li>Core Engine</li>
 <li>Lights<br></li>
@@ -28,7 +30,7 @@ A Game Engine source code which has the following features
 </ul>
 <hr>
 Open to any comments or suggestions. <br>
-Contributions to this code is also welcome.<br>
+Contributions to this code are also welcome.<br>
 contact me for more details <a href="mailto://benjamindavid03@gmail.com">benjamindavid03@gmail.com</a>
 <br>
 Company wesbite <a href="http://blaze-entertainment.in">Blaze Entertainment</a>
